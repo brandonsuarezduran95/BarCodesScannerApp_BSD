@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		993A61762DACAC9C00FC4954 /* BarCodeScanner_BSD_SDK in Frameworks */ = {isa = PBXBuildFile; productRef = 993A61752DACAC9C00FC4954 /* BarCodeScanner_BSD_SDK */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		993A61492DACAA7A00FC4954 /* BarCodesScannerApp_BSD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCodesScannerApp_BSD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		993A615B2DACAA7C00FC4954 /* Exceptions for "BarCodesScannerApp_BSD" folder in "BarCodesScannerApp_BSD" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 993A61482DACAA7A00FC4954 /* BarCodesScannerApp_BSD */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		993A614B2DACAA7A00FC4954 /* BarCodesScannerApp_BSD */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				993A615B2DACAA7C00FC4954 /* Exceptions for "BarCodesScannerApp_BSD" folder in "BarCodesScannerApp_BSD" target */,
+			);
+			path = BarCodesScannerApp_BSD;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		993A61462DACAA7A00FC4954 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993A61762DACAC9C00FC4954 /* BarCodeScanner_BSD_SDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		993A61402DACAA7A00FC4954 = {
+			isa = PBXGroup;
+			children = (
+				993A614B2DACAA7A00FC4954 /* BarCodesScannerApp_BSD */,
+				993A614A2DACAA7A00FC4954 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		993A614A2DACAA7A00FC4954 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				993A61492DACAA7A00FC4954 /* BarCodesScannerApp_BSD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		993A61482DACAA7A00FC4954 /* BarCodesScannerApp_BSD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 993A615C2DACAA7C00FC4954 /* Build configuration list for PBXNativeTarget "BarCodesScannerApp_BSD" */;
+			buildPhases = (
+				993A61452DACAA7A00FC4954 /* Sources */,
+				993A61462DACAA7A00FC4954 /* Frameworks */,
+				993A61472DACAA7A00FC4954 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				993A614B2DACAA7A00FC4954 /* BarCodesScannerApp_BSD */,
+			);
+			name = BarCodesScannerApp_BSD;
+			packageProductDependencies = (
+				993A61752DACAC9C00FC4954 /* BarCodeScanner_BSD_SDK */,
+			);
+			productName = BarCodesScannerApp_BSD;
+			productReference = 993A61492DACAA7A00FC4954 /* BarCodesScannerApp_BSD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		993A61412DACAA7A00FC4954 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					993A61482DACAA7A00FC4954 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+				};
+			};
+			buildConfigurationList = 993A61442DACAA7A00FC4954 /* Build configuration list for PBXProject "BarCodesScannerApp_BSD" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 993A61402DACAA7A00FC4954;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				993A61742DACAC9C00FC4954 /* XCLocalSwiftPackageReference "../BarCodeScanner_BSD_SDK" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 993A614A2DACAA7A00FC4954 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				993A61482DACAA7A00FC4954 /* BarCodesScannerApp_BSD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		993A61472DACAA7A00FC4954 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		993A61452DACAA7A00FC4954 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		993A615D2DACAA7C00FC4954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPK379U73T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BarCodesScannerApp_BSD/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Grant Access to the camera to Scan Bar Codes!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon-suarez.BarCodesScannerApp-BSD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		993A615E2DACAA7C00FC4954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DPK379U73T;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BarCodesScannerApp_BSD/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Grant Access to the camera to Scan Bar Codes!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon-suarez.BarCodesScannerApp-BSD";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		993A615F2DACAA7C00FC4954 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		993A61602DACAA7C00FC4954 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		993A61442DACAA7A00FC4954 /* Build configuration list for PBXProject "BarCodesScannerApp_BSD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993A615F2DACAA7C00FC4954 /* Debug */,
+				993A61602DACAA7C00FC4954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		993A615C2DACAA7C00FC4954 /* Build configuration list for PBXNativeTarget "BarCodesScannerApp_BSD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				993A615D2DACAA7C00FC4954 /* Debug */,
+				993A615E2DACAA7C00FC4954 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		993A61742DACAC9C00FC4954 /* XCLocalSwiftPackageReference "../BarCodeScanner_BSD_SDK" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../BarCodeScanner_BSD_SDK;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		993A61752DACAC9C00FC4954 /* BarCodeScanner_BSD_SDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = BarCodeScanner_BSD_SDK;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 993A61412DACAA7A00FC4954 /* Project object */;
+}
