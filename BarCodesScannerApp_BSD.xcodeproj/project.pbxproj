@@ -8,10 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		993A61762DACAC9C00FC4954 /* BarCodeScanner_BSD_SDK in Frameworks */ = {isa = PBXBuildFile; productRef = 993A61752DACAC9C00FC4954 /* BarCodeScanner_BSD_SDK */; };
+		993A62122DAD990400FC4954 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 993A62112DAD990400FC4954 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		993A61492DACAA7A00FC4954 /* BarCodesScannerApp_BSD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarCodesScannerApp_BSD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		993A62112DAD990400FC4954 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -50,6 +52,7 @@
 		993A61402DACAA7A00FC4954 = {
 			isa = PBXGroup;
 			children = (
+				993A62112DAD990400FC4954 /* README.md */,
 				993A614B2DACAA7A00FC4954 /* BarCodesScannerApp_BSD */,
 				993A614A2DACAA7A00FC4954 /* Products */,
 			);
@@ -131,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				993A62122DAD990400FC4954 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
